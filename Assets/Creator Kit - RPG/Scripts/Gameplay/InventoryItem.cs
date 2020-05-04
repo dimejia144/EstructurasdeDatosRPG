@@ -6,9 +6,7 @@ using UnityEngine;
 
 namespace RPGM.Gameplay
 {
-    /// <summary>
-    /// Marks a gameObject as a collectable item.
-    /// </summary>
+   
     [ExecuteInEditMode]
     [RequireComponent(typeof(SpriteRenderer), typeof(CircleCollider2D))]
     public class InventoryItem : MonoBehaviour
